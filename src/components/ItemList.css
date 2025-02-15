@@ -1,5 +1,10 @@
 .itemListMainContainer {
     width: 80vw;
-    border: red solid 2px;
+    border: orange solid 2px;
+    background-color: rgb(65, 112, 111);
+    border-radius: 10px;
     justify-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }

@@ -22,7 +22,8 @@ function App() {
     <>
        <div className="HomePageMainContainer">
           <div className="mainPageHeader">
-            <h1>e-Shopping</h1> <h5>SBA-320 - React web application</h5>
+          <h5>SBA-320 - React web application</h5>
+            <h1>e-Shopping</h1> 
           </div>
           <div className="itemListHomePage">
             {/* Passign the items prop to the ItemList component */}

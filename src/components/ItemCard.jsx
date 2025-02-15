@@ -6,7 +6,7 @@ const ItemCard = ({item}) => {
     return (
         <>
             <div className="itemCardMainContainer">
-                <h3 className="ItemCardHeader">{item.title}</h3>
+                <h4 className="ItemCardHeader">{item.title}</h4>
                 <div className="ItemCardImageContainer">
                     <img className="ItemCardImage" src={item.image}/>
                 </div>
