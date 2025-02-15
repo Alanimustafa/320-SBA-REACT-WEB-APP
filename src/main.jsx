@@ -11,7 +11,8 @@ createRoot(document.getElementById('root')).render(
       <Routes>
         {/* The main (root) page route is using the App component */}
         <Route path="/" element={<App />}></Route>
-        <Route path="/details" element={<Details/>}></Route>
+        {/* The Details Route uses the id param and useParams in the Details component to dispaly the details of each item */}
+        <Route path="/details/:id" element={<Details/>}></Route>
       </Routes>
     </Router>
   </StrictMode>,

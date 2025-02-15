@@ -1,5 +1,4 @@
 import "./ItemCard.css"
-import Details from "../pages/Details"
 import { Link } from "react-router-dom"
 
 const ItemCard = ({item}) => {
@@ -15,9 +14,8 @@ const ItemCard = ({item}) => {
                 <p className="ItemCardDescription">{item.description}</p>
                 <div className="ItemCardMoreDetailsLinkContainer">
                     <p className="ItemCardPrice">Price : ${item.price}</p> 
-                    <Link className="ItemCardMoreDetailsLink" to={`/details`}>more dedails...</Link>
+                    <Link className="ItemCardMoreDetailsLink" to={`/details/${item.id}`}>more dedails...</Link>
                 </div>
-                
             </div>
         </>
     )
