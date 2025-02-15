@@ -3,7 +3,13 @@
 const ItemList = ({ items }) => {
     return (
       <div>
-        The Item List
+        {items.map((item, index) => {
+            return (
+                <>
+                <p>{item.id} - {item.title}</p>
+                </>
+            )
+        })}
       </div>
     );
   };
