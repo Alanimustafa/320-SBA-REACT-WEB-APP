@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
+import ItemList from './components/ItemList'
 
 import './App.css'
 
@@ -10,14 +11,24 @@ function App() {
 
   useEffect(()=>{
     axios.get("https://fakestoreapi.com/products")
-    .then(response => {setItems(response)
-      console.log(response) // Testing the response from the API Source.
+    .then(response => {setItems(response.data) // getting the data array and update the items setter (setItems)
+      // console.log(response.data) // Testing the response from the API Source.
     })
+    .catch((error)=>{console.error(error)})
   },[])
-
+  
+  // console.log(items) // Testing the items current state
   return (
     <>
-      <h1>Fake Store React Applicaiton</h1>
+       <div className="HomePageMainContainer">
+          <div className="mainPageHeader">
+            <h1>e-Shopping</h1> <h5>SBA-320 - React web application</h5>
+          </div>
+          <div className="itemListHomePage">
+            {/* Passign the items prop to the ItemList component */}
+            <ItemList items={items} />
+          </div>
+        </div>
     </>
   )
 }
