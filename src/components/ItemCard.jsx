@@ -1,4 +1,4 @@
-
+import "./ItemCard.css"
 
 const ItemCard = ({item}) => {
     // console.log("The is the item Card " + item.title) // For Test Only The Item prop
@@ -7,8 +7,10 @@ const ItemCard = ({item}) => {
         <>
             <div className="itemCardMainContainer">
                 <h3 className="ItemCardHeader">{item.title}</h3>
-                <img className="ItemCardImage" src={item.image}/>
-                <pre className="ItemCardDescription">{item.description}</pre>
+                <div className="ItemCardImageContainer">
+                    <img className="ItemCardImage" src={item.image}/>
+                </div>
+                <p className="ItemCardDescription">{item.description}</p>
             </div>
         </>
     )

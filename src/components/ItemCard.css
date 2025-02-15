@@ -1,0 +1,39 @@
+.itemCardMainContainer {
+    border: green solid 2px;
+    background-color: wheat;
+    border-radius: 10px;
+    width: 20vw;
+    height: 70vh;
+    justify-items: center;
+    padding: 1em;
+    margin: 20px;
+    position: relative; /* for positioning the 'read more' button */
+    overflow: hidden; /* hides content that overflows */
+}
+
+
+.ItemCardImageContainer {
+    background-color: white;
+    padding: 0px;
+    border: rgb(190, 190, 190) solid 3px;
+    border-radius: 10px;
+
+}
+.ItemCardImage {
+    width: 15vw;
+    height: 35vh;
+    margin: 1em;
+    padding: 1vh;
+}
+
+.ItemCardDescription {
+    width: 100%;
+    height: 6em; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    line-height: 1.5em; 
+    position: relative;
+    font-size: 20px;
+}
+
+
