@@ -3,7 +3,7 @@
     background-color: wheat;
     border-radius: 10px;
     width: 20vw;
-    height: 70vh;
+    height: 73%;
     justify-items: center;
     padding: 1em;
     margin: 20px;
@@ -42,6 +42,28 @@
     line-height: 1.5em; 
     position: relative;
     font-size: 20px;
+    margin-bottom: 0px
 }
 
+.ItemCardMoreDetailsLinkContainer {
+    justify-self: right;
+    width: 100%;
+    height: 15%;
+    justify-self: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ItemCardMoreDetailsLink {
+    text-decoration: none;
+    font-size: 20px;
+    justify-self: right;
+    align-self: center;
+
+}
+
+.ItemCardPrice {
+    font-weight: bold;
+    justify-self: left;
+}
 
