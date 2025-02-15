@@ -1,0 +1,5 @@
+.itemListMainContainer {
+    width: 80vw;
+    border: red solid 2px;
+    justify-self: center;
+}
