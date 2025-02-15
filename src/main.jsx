@@ -6,6 +6,11 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <Router>
+      <Routes>
+        {/* The main (root) page route is using the App component */}
+        <Route path="/" element={<App />}></Route>
+      </Routes>
+    </Router>
   </StrictMode>,
 )
