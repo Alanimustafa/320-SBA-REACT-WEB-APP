@@ -25,7 +25,7 @@ function App() {
        <div className="HomePageMainContainer">
           <div className="mainPageHeader">
           
-            <h1 className='appLogo'>e-Shopping</h1> 
+            <h1 className='appLogo'>E-SHOP</h1> 
             <Nav></Nav>
           </div>
           <div className="itemListHomePage">
