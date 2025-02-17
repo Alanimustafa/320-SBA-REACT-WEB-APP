@@ -21,5 +21,13 @@ Note: The .gitignore file has been added to this code.
 
 API: This applicatoin is using the Fake Store API. No API key is required for getting the data from the website.
 
+How it works:
+HOME PAGE at root (/)- Displays all the products received from the fake store API.
+MEN'S PAGE at root (/mens) - Displays all men's clothing products received from the fake store API.
+WOMEN'S PAGE at root (/womens) - Displays all women's clothing products received from the fake store API.
+JEWELERY PAGE at root (/jewelery) - Displays all jewelery products received from the fake store API.
+ELECTRONICS PAGE at root (/electronics) - Displays all electronics products received from the fake store API.
+
+Each produc
 
 

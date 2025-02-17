@@ -67,3 +67,9 @@
     justify-self: left;
 }
 
+.LinkToItemDetails {
+    text-decoration: none;
+    color: brown;
+    justify-self: left;
+}
+

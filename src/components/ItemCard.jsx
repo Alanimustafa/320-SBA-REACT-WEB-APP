@@ -7,7 +7,9 @@ const ItemCard = ({item}) => {
     return (
         <>
             <div className="itemCardMainContainer">
-                <h4 className="ItemCardHeader">{item.title}</h4>
+                <Link className="LinkToItemDetails" to={`/details/${item.id}`}>
+                    <h4 className="ItemCardHeader">{item.title}</h4>                
+                </Link>
                 <div className="ItemCardImageContainer">
                     <img className="ItemCardImage" src={item.image}/>
                 </div>

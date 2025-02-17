@@ -29,9 +29,9 @@ function Mens() {
                     {mens.length > 0 ? (
                         mens.map((item) => (
                             <div key={item.id} className="cats-item">
-                                <div className="catHeader">
-                                    <h3 className="cath3Header">{item.title}</h3>
-                                </div>
+                                <Link className="LinkToItemDetails" to={`/details/${item.id}`}>
+                                    <h4 className="ItemCardHeader">{item.title}</h4>                
+                                </Link>                                
                                 <div className="catImageDiv">
                                     <img className="catimageTag" src={item.image} alt={item.title}/>    
                                 </div>
@@ -50,6 +50,8 @@ function Mens() {
                         <p>Loading products...</p>
                     )}
                 </div>
+                <h5 className='SBA-Title'>SBA-320 - React web application</h5>
+                <p className='mustafaAlani'>Mustafa Alani - PER SCHOLAS RTT-55</p>
             </div>
         </>
     );

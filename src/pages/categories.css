@@ -11,19 +11,21 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: stretch; 
 }
 
 .cats-item {
     border: green solid 2px;
     background-color: wheat;
     border-radius: 10px;
-    width: 20vw;
+    flex-basis: 20vw;
     height: 73%;
-    justify-items: center;
+    min-width: 20vw;
+    flex-shrink: 0; 
     padding: 1em;
     margin: 20px;
-    position: relative; /* for positioning the 'read more' button */
-    overflow: hidden; /* hides content that overflows */
+    position: relative; 
+    overflow: hidden; 
 }
 
 .catHeader {
@@ -89,3 +91,8 @@
     justify-self: left;
 }
 
+.LinkToItemDetails {
+    text-decoration: none;
+    color: brown;
+    justify-self: left;
+}
