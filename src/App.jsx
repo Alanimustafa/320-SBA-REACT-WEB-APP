@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 import ItemList from './components/ItemList'
+import Nav from './components/Nav'
 
 import './App.css'
 
@@ -20,10 +21,12 @@ function App() {
   // console.log(items) // Testing the items current state
   return (
     <>
+    
        <div className="HomePageMainContainer">
           <div className="mainPageHeader">
           <h5>SBA-320 - React web application</h5>
             <h1>e-Shopping</h1> 
+            <Nav></Nav>
           </div>
           <div className="itemListHomePage">
             {/* Passign the items prop to the ItemList component */}

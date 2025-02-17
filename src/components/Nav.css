@@ -1,0 +1,23 @@
+.NavMainContainer {
+    display: flex;
+    background-color: rgb(18, 107, 62);
+    width: 90vw;
+    justify-self: center;
+    height: 4vh;
+    align-items: center;
+    margin: 0px;
+    margin-bottom: 2vh
+}
+
+.NavLink {
+    text-decoration: none;
+    align-items: center;
+}
+
+
+.NavLinkParagraph {
+    color:wheat;
+    margin: 0px;
+    margin-left: 2vw;
+    text-decoration: none;
+}

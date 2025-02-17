@@ -1,0 +1,61 @@
+.mens-items {
+    border: solid gray 2px;
+    border-radius: 10px;;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw;
+    width: 70vw;
+    flex-wrap: wrap;
+    justify-self: center;
+    background-color: rgb(76, 138, 167);
+}
+
+.mens-item {
+    width: 18vw;
+    height: 50vh;
+    border: orange solid 4px;
+    background-color: white;
+    border-radius: 10px;
+    justify-self: center;
+    flex-wrap: wrap;
+    justify-items: center;
+    margin: 0.5em;
+    padding: 1em;
+}
+
+.catHeader {
+    height: 11vh;
+    width: 18vw;
+    overflow: hidden;
+}
+
+.cath3Header {
+    color: brown;
+    margin: 0px;;
+}
+
+.catImageDiv {
+    margin: 0.5em;
+    border: darkgray solid 3px;
+    border-radius: 10px;;
+    padding: 0.5em;
+    background-color: white;
+    height: 22vh;
+}
+
+
+.catimageTag {
+    width: 8vw;
+    height: 21vh
+}
+
+.catItemDescription {
+    margin-top: 0px;;
+    width: 18vw;
+    height: 6vh;
+    overflow: hidden;
+}
+
+.catItemDescriptionParagraph {
+    margin: 0px;
+}
