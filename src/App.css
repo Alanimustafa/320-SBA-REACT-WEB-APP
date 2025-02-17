@@ -1,4 +1,22 @@
+
 .HomePageMainContainer {
   background-color: rgb(255, 249, 227);
 }
 
+.appLogo {
+  margin: 0px;;
+}
+
+.SBA-Title {
+  justify-self: center;
+  margin-bottom: 5px;
+}
+
+.mustafaAlani {
+  color: rgb(73, 73, 173);
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0px;
+  justify-self: center;
+  margin-bottom: 2vh
+}

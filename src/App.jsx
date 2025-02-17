@@ -24,8 +24,8 @@ function App() {
     
        <div className="HomePageMainContainer">
           <div className="mainPageHeader">
-          <h5>SBA-320 - React web application</h5>
-            <h1>e-Shopping</h1> 
+          
+            <h1 className='appLogo'>e-Shopping</h1> 
             <Nav></Nav>
           </div>
           <div className="itemListHomePage">
@@ -33,6 +33,8 @@ function App() {
             <ItemList items={items} />
           </div>
         </div>
+        <h5 className='SBA-Title'>SBA-320 - React web application</h5>
+        <p className='mustafaAlani'>Mustafa Alani - PER SCHOLAS RTT-55</p>
     </>
   )
 }

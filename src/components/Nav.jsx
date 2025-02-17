@@ -12,6 +12,9 @@ export default function Nav () {
             <Link className="NavLink" to="/mens">
                  <p className="NavLinkParagraph" >Men's</p>
             </Link>
+            <Link className="NavLink" to="/womens">
+                 <p className="NavLinkParagraph" >Women's</p>
+            </Link>
             <Link className="NavLink" to="/jewelery">
                  <p className="NavLinkParagraph" >Jewelery</p>
             </Link>
