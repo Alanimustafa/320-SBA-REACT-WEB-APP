@@ -14,7 +14,7 @@ const {id} = useParams();
 // Crate a useState Variable to manage the item state
 const [item, setItems] = useState(null)
 
-console.log(item);
+//console.log(item);
 useEffect(()=>{
     axios.get(`https://fakestoreapi.com/products/${id}`)
     .then(response => {

@@ -4,15 +4,15 @@ import axios from "axios";
 import "./categories.css"
 import { Link } from "react-router-dom";
 
-function Mens() {
-    const [mens, setMens] = useState([]);
+function Jewelery() {
+    const [jewelery, setJewelery] = useState([]);
 
     useEffect(() => {
         axios.get("https://fakestoreapi.com/products")
             .then(response => {
                 // Filtering only men's clothing items
-                const filteredMens = response.data.filter(item => item.category === "men's clothing");
-                setMens(filteredMens);
+                const filteredMens = response.data.filter(item => item.category === "jewelery");
+                setJewelery(filteredMens);
             })
             .catch(error => {
                 console.error(error);
@@ -24,10 +24,10 @@ function Mens() {
             <div className="CatsMainContainer">
                 <h1>e-Shopping</h1>
                 <Nav />
-                <h1>Men's Clothing</h1>
+                <h1>Jewelery</h1>
                 <div className="cats-items">
-                    {mens.length > 0 ? (
-                        mens.map((item) => (
+                    {jewelery.length > 0 ? (
+                        jewelery.map((item) => (
                             <div key={item.id} className="cats-item">
                                 <div className="catHeader">
                                     <h3 className="cath3Header">{item.title}</h3>
@@ -55,4 +55,4 @@ function Mens() {
     );
 }
 
-export default Mens;
+export default Jewelery;

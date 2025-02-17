@@ -13,7 +13,7 @@ function App() {
   useEffect(()=>{
     axios.get("https://fakestoreapi.com/products")
     .then(response => {setItems(response.data) // getting the data array and update the items setter (setItems)
-      // console.log(response.data) // Testing the response from the API Source.
+       console.log(response.data) // Testing the response from the API Source.
     })
     .catch((error)=>{console.error(error)})
   },[])

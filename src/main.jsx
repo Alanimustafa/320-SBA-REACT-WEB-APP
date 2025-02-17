@@ -5,6 +5,7 @@ import './index.css'
 import App from './App.jsx'
 import Details from './pages/Details.jsx';
 import Mens from './pages/mens.jsx';
+import Jewelery from './pages/Jewelery.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -16,6 +17,8 @@ createRoot(document.getElementById('root')).render(
         <Route path="/details/:id" element={<Details/>}></Route>
         {/* The mens Route */}
         <Route path="/mens" element={<Mens/>}></Route>
+        {/* The Jewelery Route */}
+        <Route path="/jewelery" element={<Jewelery/>}></Route>
       </Routes>
     </Router>
   </StrictMode>,
