@@ -15,6 +15,9 @@ export default function Nav () {
             <Link className="NavLink" to="/jewelery">
                  <p className="NavLinkParagraph" >Jewelery</p>
             </Link>
+            <Link className="NavLink" to="/electronics">
+                 <p className="NavLinkParagraph" >Electronics</p>
+            </Link>
 
         </nav>
         </>
