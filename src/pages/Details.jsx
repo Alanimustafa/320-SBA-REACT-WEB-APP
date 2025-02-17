@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import "./Details.css"
+import { Link } from "react-router-dom";
+import Nav from "../components/Nav";
 
 
 const Details = () => {
@@ -41,6 +43,7 @@ const renderStars = (rating) => {
     return (
         <>
             <div className="ItemDetailsMainConTainer">
+                <Link className="LinkToHomePage" to="/" >Home</Link>
                 <h3 className="itemDetailsHeader">{item.title}</h3>
                 <div className="itemDetailsImageContainer">
                     <img className="itemDetailsImage" src={item.image} alt="itemImage" />
